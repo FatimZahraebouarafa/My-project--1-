@@ -7,10 +7,6 @@ Builds/
 Logs/
 UserSettings/
 
-# Large texture files (use Asset Store to download)
-*.psd
-Assets/CartoonTracksPack1/Track1/Textures/road_normal.png
-
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
