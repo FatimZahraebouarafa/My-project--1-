@@ -4,13 +4,26 @@ Un projet de jeu de course développé avec Unity.
 
 ## Installation
 
-1. Clonez ce repository
-2. Ouvrez le projet dans Unity (version 6000.0.30f1 ou supérieure)
-3. **Important:** Téléchargez les assets suivants depuis l'Asset Store Unity:
-   - **Cartoon Tracks Pack 1** - Pour les pistes de course
-   - **HellaFlush Drift Car Free** - Pour les modèles de voitures
+### Prérequis
+- Unity version 6000.0.30f1 ou supérieure
+- Git LFS installé (pour les gros fichiers de textures)
 
-4. Importez ces assets dans le dossier Assets/
+### Étapes d'installation
+
+1. **Installez Git LFS** (si ce n'est pas déjà fait):
+   ```bash
+   git lfs install
+   ```
+
+2. **Clonez ce repository**:
+   ```bash
+   git clone https://github.com/FatimZahraebouarafa/My-project--1-.git
+   ```
+   Git LFS téléchargera automatiquement tous les gros fichiers de textures.
+
+3. **Ouvrez le projet dans Unity** (version 6000.0.30f1 ou supérieure)
+
+4. Le projet est prêt à l'emploi avec toutes les textures incluses!
 
 ## Fonctionnalités
 
@@ -20,9 +33,13 @@ Un projet de jeu de course développé avec Unity.
 - Piste de course modulaire
 - Modèles de voitures avec physique réaliste
 
-## Assets Requis
+## Assets Inclus
 
-Les fichiers de textures volumineux (.psd, certains .png) ne sont pas inclus dans ce repository en raison des limites de taille de GitHub. Vous devez télécharger les asset packs mentionnés ci-dessus.
+✅ Tous les fichiers de textures sont inclus via **Git LFS**
+✅ Cartoon Tracks Pack 1 - Pistes de course
+✅ HellaFlush Drift Car Free - Modèles de voitures
+
+**Note**: Git LFS est utilisé pour gérer les gros fichiers (textures .psd et .png). Assurez-vous d'avoir Git LFS installé avant de cloner le repository.
 
 ## Utilisation
 
